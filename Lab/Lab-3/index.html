@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>My Information</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" required>
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" required>
+            <br><br>
+
+            <label for="dob">DOB:</label>
+            <input type="date" name="dob" id="dob" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+           
+         
+
+            <label>Occupation:</label>
+            <input type="checkbox" name="work" id="student" value="student">
+            <label for="student">Student</label>
+
+            <input type="checkbox" name="work" id="jobHolder" value="jobHolder">
+            <label for="jobHolder">Job Holder</label>
+            <br><br>
+
+           
+            <label for="department">Department:</label>
+            <select name="department" id="department">
+                <option value="" selected>Select Department</option>
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="bba">BBA</option>
+                <option value="english">English</option>
+            </select>
+            <br><br>
+
+            
+            <label for="address">Address:</label><br>
+            <textarea name="address" id="address" rows="4" cols="30"></textarea>
+            <br><br>
+
+         
+
+           
+            <label for="file">Upload CV:</label>
+            <input type="file" id="file" name="file">
+            <br><br>
+
+           
+            <label for="comments">Comments:</label><br>
+            <textarea name="comments" id="comments" rows="5" cols="40"  maxlength="200"></textarea>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

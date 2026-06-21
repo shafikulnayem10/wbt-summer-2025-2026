@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Registration Form </title>
+</head>
+<body>
+<form>
+        <fieldset>
+        <legend>Personal Information</legend>
+        
+            <label for="fullname" >Full Name:</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Enter Your Name" required>
+            <br><br>
+
+            <label for="sid" >Student ID:</label>
+            <input type="text" name="sid" id="sid" placeholder="Enter Your Student ID" required>
+            <br><br>
+           
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            <br><br>
+
+           <label for="dob">Date of Birth :</label>
+            <input type="date" name="dob" id="dob" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="male" value="male" >
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">other</label>
+            <br><br>
+
+    </fieldset>
+    <br><br>
+
+      <fieldset>
+        <legend>Academic Information </legend>
+         <label for="department">Department:</label>
+            <select name="department" id="department">
+                <option value="" selected>Select Department</option>
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="bba">BBA</option>
+                <option value="english">English</option>
+                 <option value="ce">Civil Engineering </option>
+            </select>
+            <br><br>
+
+            <label for="sem">Semester:</label>
+            <select name="sem" id="sem">
+                <option value="" selected>Select Semester</option>
+                <option value="1stsem">1st Semester</option>
+                <option value="2ndstsem">2nd Semester</option>
+                <option value="3rdstsem">3rd Semester</option>
+                <option value="4thsem">4th Semester</option>
+                 <option value="5stsem">5th Semester</option>
+                <option value="6thsem">6th Semester</option>
+                <option value="7thsem">7th Semester</option>
+                <option value="8thsem">8th Semester</option>
+                
+            </select>
+            <br><br>
+
+             <label> Programming Languages: </label>
+            <input type="checkbox" name="java" id="java" value="java">
+            <label for="java">Java</label>
+
+            <input type="checkbox" name="js" id="js" value="js">
+            <label for="js">Javascript</label>
+
+            <input type="checkbox" name="c" id="c" value="c">
+            <label for="c">C</label>
+
+            <input type="checkbox" name="c++" id="c++" value="c++">
+            <label for="c++">C++</label>
+
+            <input type="checkbox" name="py" id="py" value="py">
+            <label for="py">Python</label>
+
+            <br><br>
+
+         
+
+    </fieldset>
+    <br><br>
+
+    <fieldset>
+        <legend>Additional Information </legend>
+        <label for="address">Address:</label><br>
+            <textarea name="address" id="address" rows="4" cols="30"></textarea>
+            <br><br>
+
+         
+            <label for="file">Upload Student Photo :</label>
+            <input type="file" id="file" name="file" required>
+            <br><br>
+
+             <label for="comments">Comments:</label><br>
+            <textarea name="comments" id="comments" rows="5" cols="40"  maxlength="200"></textarea>
+    </fieldset>
+    <br><br>
+
+      <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
