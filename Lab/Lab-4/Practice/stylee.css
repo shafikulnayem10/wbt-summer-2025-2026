@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(121, 203, 121);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.title {
+    color: aliceblue;
+}
+
+.nav-links a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.welcome-section {
+    text-align: center;
+    background-color: rgb(112, 9, 231);
+    padding: 40px 20px;
+}
+
+.welcome-title {
+    color: aquamarine;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.welcome-paragraph {
+    color: rgb(160, 238, 44);
+    margin-bottom: 20px;
+}
+
+.welcome-btn {
+    color: azure;
+    border-radius: 10px;
+    background-color: rgb(187, 127, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.course-card {
+    display: inline-block;
+    margin-left: 20px;
+    background-color: rgb(255, 127, 200);
+    color: black;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: brown;
+    color: aliceblue;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 2px 6px;
+}
+
+.courses-section-parent {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.notice-title {
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+}
+
+.notice-section {
+    height: 80px;
+    width: 900px;
+    border: 2px solid #000; 
+    margin: auto;
+    margin-top: 30px;
+    overflow: auto; 
+    color: black;
+    background-color: aliceblue;
+}
+
+
+
+
+
