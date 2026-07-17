@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Club Membership Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Club Registration Form</h2>
+
+    <form id="myForm">
+
+        <label>First Name</label>
+        <input type="text" id="firstName">
+        <small class="error" id="firstNameError"></small>
+
+        <label>Last Name</label>
+        <input type="text" id="lastName">
+        <small class="error" id="lastNameError"></small>
+
+        <label>Email Address</label>
+        <input type="email" id="email">
+        <small class="error" id="emailError"></small>
+
+        <label>Password</label>
+        <input type="password" id="password">
+        <small class="error" id="passwordError"></small>
+
+        <label>Gender</label>
+        <div class="radio-group">
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </div>
+        <small class="error" id="genderError"></small>
+
+        <label>Interested Clubs</label>
+        <div class="checkbox-group">
+            <input type="checkbox" name="club" value="Computer Club"> AIUB Computer Club
+            <input type="checkbox" name="club" value="Photography Club"> AIUB Photography Club
+            <input type="checkbox" name="club" value="Arts Club"> AIUB Performing Arts Club
+        </div>
+        <small class="error" id="clubError"></small>
+
+        <label>Club Category</label>
+        <select id="category">
+            <option value="">Select Category</option>
+            <option>Technical</option>
+            <option>Cultural</option>
+            <option>Sports</option>
+        </select>
+        <small class="error" id="categoryError"></small>
+
+        <label>Why do you want to join?</label>
+        <textarea id="reason" rows="4"></textarea>
+        <small class="error" id="reasonError"></small>
+
+        <button type="submit">Register</button>
+
+    </form>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
